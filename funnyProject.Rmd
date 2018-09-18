@@ -1,0 +1,29 @@
+---
+title: "Course Project - Funny Plot"
+author: "Silva, Rafael"
+date: "September 18, 2018"
+output: html_document
+---
+
+## Introduction
+
+I found this equation on the internet and decided to plot it:
+
+$$z = cos(x^2 +  y^2)$$
+
+The result was not as funny as I thought it would be, but I already named the document and I don't want to change it.
+
+This document was created in:
+```{r}
+Sys.Date()
+```
+
+## Graphic
+
+```{r, message=FALSE}
+library(plotly)
+source("R/funny.plot.R")
+funny.plot()
+```
+
+Code for the plot is available in the github repository.
